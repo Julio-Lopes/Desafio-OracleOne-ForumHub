@@ -1,0 +1,10 @@
+CREATE TABLE Resposta (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    mensagem TEXT NOT NULL,
+    topico BIGINT NOT NULL,
+    dataCriacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    autor BIGINT NOT NULL,
+    solucao BOOLEAN DEFAULT FALSE,
+    FOREIGN KEY (topico) REFERENCES Topico(id),
+    FOREIGN KEY (autor) REFERENCES Usuario(id)
+);
