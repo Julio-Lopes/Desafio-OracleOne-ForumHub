@@ -62,8 +62,8 @@ Esta é uma API RESTful desenvolvida para gerenciamento de **tópicos**, **curso
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-projeto.git
-   cd nome-do-projeto
+   gh repo clone Julio-Lopes/Desafio-OracleOne-ForumHub
+   cd Desafio-OracleOne-ForumHub
 2. **Configure o banco de dados**:
    ```bash
    Crie o banco de dados (ex.: MySQL/PostgreSQL).
